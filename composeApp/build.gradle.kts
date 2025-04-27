@@ -25,12 +25,12 @@ kotlin {
             implementation(libs.androidx.activity.compose)
         }
         commonMain.dependencies {
-            implementation(compose.runtime)
-            implementation(compose.foundation)
-            implementation(compose.material)
-            implementation(compose.ui)
-            implementation(compose.components.resources)
-            implementation(compose.components.uiToolingPreview)
+           // implementation(compose.runtime)
+          //  implementation(compose.foundation)
+         //   implementation(compose.material)
+         //   implementation(compose.ui)
+          //  implementation(compose.components.resources)
+        //   implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
             implementation(projects.shared)
@@ -107,6 +107,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
    //implementation(libs.kotlinx.coroutines.core)
    // implementation(libs.kotlinx.coroutines.android)
+
       implementation(libs.converter.gson)
     implementation(libs.retrofit)
 implementation(libs.androidx.lifecycle.viewmodel.ktx.v240)

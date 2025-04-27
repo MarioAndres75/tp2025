@@ -1,6 +1,6 @@
 package tp.taller.programacion2025.domain;
 
-//import tp.google.gson.annotations.SerializedName  // error
+
 import com.google.gson.annotations.SerializedName
 import retrofit2.http.GET
 import retrofit2.http.Headers
